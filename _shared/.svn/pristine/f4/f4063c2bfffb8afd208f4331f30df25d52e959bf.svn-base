@@ -1,0 +1,1 @@
+"./COECSL_edma3.obj" "./COECSL_mcbsp.obj" "./ColorLCD.obj" "./ColorVision.obj" "./LCDprintf.obj" "./Ladar.obj" "./MatrixMath.obj" "./main.obj" "./pru.obj" "./user_xy.obj" "C:/dan/omapl138/SE423Sp18/_shared/bsl_forSYSBIOS/lib/evmomapl138_bsl.lib" -l"configPkg/linker.cmd" -llibc.a 

@@ -1,0 +1,37 @@
+
+**** Build of configuration Debug for project final_v1 ****
+
+"C:\\CCStudio_v7\\ccsv7\\utils\\bin\\gmake" -k all 
+'Building file: C:/team5demoday/mylabs/final_v1/src/user_final_v1.c'
+'Invoking: C6000 Compiler'
+"C:/CCStudio_v7/ccsv7/tools/compiler/c6000_7.4.22/bin/cl6x" -mv6740 --abi=coffabi -O3 -g --include_path="C:/CCStudio_v7/ccsv7/tools/compiler/c6000_7.4.22/include" --include_path="C:/team5demoday/_shared/bsl/inc" --include_path="C:/team5demoday/mylabs/final_v1" --include_path="C:/team5demoday/_shared/c67xmathlib_2_01_00_00/inc" --include_path="C:/team5demoday/_shared/mcbsp_com" --include_path="C:/team5demoday/_shared/sharedmem_com" --include_path="C:/team5demoday/mylabs/final_v1/include" --include_path="C:/team5demoday/mylabs/final_v1/final_v1Project/Debug" --include_path="C:/CCStudio_v7/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/CCStudio_v7/bios_5_42_02_10/packages/ti/rtdx/include/c6000" --define=RUNNING_ON_OMAPL138 --define=_DEBUG --display_error_number --diag_warning=225 --preproc_with_compile --preproc_dependency="user_final_v1.d"  "C:/team5demoday/mylabs/final_v1/src/user_final_v1.c"
+"C:/team5demoday/mylabs/final_v1/src/user_final_v1.c", line 593: warning #36-D: #warn GP6.15 is also connected to CAMERA RESET This is a Bug in my board design Need to change Camera Reset to different IO.
+'Finished building: C:/team5demoday/mylabs/final_v1/src/user_final_v1.c'
+' '
+'Building target: final_v1.out'
+'Invoking: C6000 Linker'
+"C:/CCStudio_v7/ccsv7/tools/compiler/c6000_7.4.22/bin/cl6x" -mv6740 --abi=coffabi -O3 -g --define=RUNNING_ON_OMAPL138 --define=_DEBUG --display_error_number --diag_warning=225 -z --stack_size=0xc00 -m"final_v1.map" -i"C:/CCStudio_v7/ccsv7/tools/compiler/c6000_7.4.22/lib" -i"C:/CCStudio_v7/ccsv7/tools/compiler/c6000_7.4.22/include" -i"C:/CCStudio_v7/bios_5_42_02_10/packages/ti/rtdx/lib/c6000" -i"C:/CCStudio_v7/bios_5_42_02_10/packages/ti/bios/lib" --reread_libs --warn_sections --xml_link_info="final_v1_linkInfo.xml" --rom_model -o "final_v1.out" "./COECSL_edma3.obj" "./COECSL_mcbsp.obj" "./ColorLCD.obj" "./ColorVision.obj" "./LCDprintf.obj" "./Ladar.obj" "./MatrixMath.obj" "./astarfile.obj" "./final_v1cfg.obj" "./final_v1cfg_c.obj" "./pQueue.obj" "./pru.obj" "./user_final_v1.obj" "./user_xy.obj" "C:/team5demoday/_shared/c67xmathlib_2_01_00_00/lib/c674xfastMath.lib" "C:/team5demoday/_shared/bsl/lib/evmomapl138_bsl.lib" "C:/team5demoday/mylabs/final_v1/lnk.cmd" -l"./final_v1cfg.cmd" -llibc.a 
+<Linking>
+'Finished building target: final_v1.out'
+' '
+"C:/team5demoday/mylabs/final_v1/final_v1Project/../postBuildStep_Debug.bat" PROJECT_ROOT C:/team5demoday/mylabs/final_v1/final_v1Project !
+Translating to Binary format...
+   "C:/team5demoday/mylabs/final_v1/final_v1Project\debug\final_v1.out"   ==> .hwi_vec 	(BOOT LOAD)
+   "C:/team5demoday/mylabs/final_v1/final_v1Project\debug\final_v1.out"   ==> .bios 	(BOOT LOAD)
+   "C:/team5demoday/mylabs/final_v1/final_v1Project\debug\final_v1.out"   ==> .data 	(BOOT LOAD)
+   "C:/team5demoday/mylabs/final_v1/final_v1Project\debug\final_v1.out"   ==> .pinit 	(BOOT LOAD)
+   "C:/team5demoday/mylabs/final_v1/final_v1Project\debug\final_v1.out"   ==> .text 	(BOOT LOAD)
+   "C:/team5demoday/mylabs/final_v1/final_v1Project\debug\final_v1.out"   ==> .cinit 	(BOOT LOAD)
+   "C:/team5demoday/mylabs/final_v1/final_v1Project\debug\final_v1.out"   ==> .switch 	(BOOT LOAD)
+   "C:/team5demoday/mylabs/final_v1/final_v1Project\debug\final_v1.out"   ==> .gblinit 	(BOOT LOAD)
+   "C:/team5demoday/mylabs/final_v1/final_v1Project\debug\final_v1.out"   ==> .sysinit 	(BOOT LOAD)
+   "C:/team5demoday/mylabs/final_v1/final_v1Project\debug\final_v1.out"   ==> .trcdata 	(BOOT LOAD)
+   "C:/team5demoday/mylabs/final_v1/final_v1Project\debug\final_v1.out"   ==> .rtdx_text 	(BOOT LOAD)
+   "C:/team5demoday/mylabs/final_v1/final_v1Project\debug\final_v1.out"   ==> .const 	(BOOT LOAD)
+   "C:/team5demoday/mylabs/final_v1/final_v1Project\debug\final_v1.out"   ==> .args 	(BOOT LOAD)
+   "C:/team5demoday/mylabs/final_v1/final_v1Project\debug\final_v1.out"   ==> .trace 	(BOOT LOAD)
+   "C:/team5demoday/mylabs/final_v1/final_v1Project\debug\final_v1.out"   ==> .log 	(BOOT LOAD)
+   "C:/team5demoday/mylabs/final_v1/final_v1Project\debug\final_v1.out"   ==> .sts 	(BOOT LOAD)
+' '
+
+**** Build Finished ****
